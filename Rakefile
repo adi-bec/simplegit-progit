@@ -3,6 +3,7 @@ Gem::manage_gems
 require 'rake/gempackagetask'
 
 # don't know if this is a comment in ruby
+# and one more line
 spec = Gem::Specification.new do |s|
     s.platform  =   Gem::Platform::RUBY
     s.name      =   "simplegit"
